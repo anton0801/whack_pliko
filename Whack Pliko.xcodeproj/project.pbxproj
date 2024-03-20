@@ -7,18 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEC464562BA9EDF200673D60 /* GameSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC464552BA9EDF200673D60 /* GameSceneView.swift */; };
+		EEC464592BA9EED300673D60 /* WhackGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC464582BA9EED300673D60 /* WhackGameScene.swift */; };
+		EEC4645B2BA9EF2900673D60 /* WhackGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC4645A2BA9EF2900673D60 /* WhackGameViewModel.swift */; };
+		EEC4645D2BA9F09D00673D60 /* SpriteName.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC4645C2BA9F09D00673D60 /* SpriteName.swift */; };
+		EEC4645F2BA9F50300673D60 /* ProgressGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC4645E2BA9F50300673D60 /* ProgressGame.swift */; };
+		EEC464612BA9F74E00673D60 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC464602BA9F74E00673D60 /* WhackSlot.swift */; };
+		EEC464632BA9F7C400673D60 /* WhackSlotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC464622BA9F7C400673D60 /* WhackSlotViewModel.swift */; };
+		EEC464662BAA05F200673D60 /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = EEC464642BAA05F200673D60 /* Smoke.sks */; };
+		EEC464672BAA05F200673D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC464652BAA05F200673D60 /* Assets.xcassets */; };
+		EEC464692BAA070800673D60 /* clickBad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEC464682BAA070800673D60 /* clickBad.mp3 */; };
+		EEC4646B2BAA072C00673D60 /* clickGood.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEC4646A2BAA072C00673D60 /* clickGood.wav */; };
+		EEC4646E2BAA133800673D60 /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC4646D2BAA133800673D60 /* RulesView.swift */; };
+		EEC464712BAA15CA00673D60 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC464702BAA15CA00673D60 /* MenuView.swift */; };
+		EEC464752BAA168700673D60 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC464742BAA168700673D60 /* PrivacyPolicyView.swift */; };
+		EEC464772BAA177000673D60 /* ProgressGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC464762BAA177000673D60 /* ProgressGameView.swift */; };
+		EEC464792BAA178A00673D60 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC464782BAA178A00673D60 /* GameData.swift */; };
 		EEE88D022BA1F36300F9BE1E /* Whack_PlikoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE88D012BA1F36300F9BE1E /* Whack_PlikoApp.swift */; };
 		EEE88D042BA1F36300F9BE1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE88D032BA1F36300F9BE1E /* ContentView.swift */; };
 		EEE88D062BA1F36600F9BE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE88D052BA1F36600F9BE1E /* Assets.xcassets */; };
 		EEE88D092BA1F36600F9BE1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE88D082BA1F36600F9BE1E /* Preview Assets.xcassets */; };
+		EEE88D182BA1F52200F9BE1E /* GamePlikoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE88D172BA1F52200F9BE1E /* GamePlikoViewModel.swift */; };
+		EEE88D1B2BA1F76B00F9BE1E /* PlikoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE88D1A2BA1F76B00F9BE1E /* PlikoScene.swift */; };
+		EEE88D1F2BA1F82600F9BE1E /* PlikoBonusGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE88D1E2BA1F82600F9BE1E /* PlikoBonusGameView.swift */; };
+		EEE88D212BA2037100F9BE1E /* PlikoNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE88D202BA2037100F9BE1E /* PlikoNames.swift */; };
+		EEE88D232BA21F8900F9BE1E /* PlikoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE88D222BA21F8900F9BE1E /* PlikoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EEC464552BA9EDF200673D60 /* GameSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneView.swift; sourceTree = "<group>"; };
+		EEC464582BA9EED300673D60 /* WhackGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackGameScene.swift; sourceTree = "<group>"; };
+		EEC4645A2BA9EF2900673D60 /* WhackGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackGameViewModel.swift; sourceTree = "<group>"; };
+		EEC4645C2BA9F09D00673D60 /* SpriteName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteName.swift; sourceTree = "<group>"; };
+		EEC4645E2BA9F50300673D60 /* ProgressGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressGame.swift; sourceTree = "<group>"; };
+		EEC464602BA9F74E00673D60 /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
+		EEC464622BA9F7C400673D60 /* WhackSlotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlotViewModel.swift; sourceTree = "<group>"; };
+		EEC464642BAA05F200673D60 /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		EEC464652BAA05F200673D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEC464682BAA070800673D60 /* clickBad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clickBad.mp3; sourceTree = "<group>"; };
+		EEC4646A2BAA072C00673D60 /* clickGood.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clickGood.wav; sourceTree = "<group>"; };
+		EEC4646D2BAA133800673D60 /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		EEC464702BAA15CA00673D60 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		EEC464742BAA168700673D60 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		EEC464762BAA177000673D60 /* ProgressGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressGameView.swift; sourceTree = "<group>"; };
+		EEC464782BAA178A00673D60 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 		EEE88CFE2BA1F36300F9BE1E /* Whack Pliko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whack Pliko.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE88D012BA1F36300F9BE1E /* Whack_PlikoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whack_PlikoApp.swift; sourceTree = "<group>"; };
 		EEE88D032BA1F36300F9BE1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EEE88D052BA1F36600F9BE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEE88D082BA1F36600F9BE1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEE88D172BA1F52200F9BE1E /* GamePlikoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlikoViewModel.swift; sourceTree = "<group>"; };
+		EEE88D1A2BA1F76B00F9BE1E /* PlikoScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlikoScene.swift; sourceTree = "<group>"; };
+		EEE88D1E2BA1F82600F9BE1E /* PlikoBonusGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlikoBonusGameView.swift; sourceTree = "<group>"; };
+		EEE88D202BA2037100F9BE1E /* PlikoNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlikoNames.swift; sourceTree = "<group>"; };
+		EEE88D222BA21F8900F9BE1E /* PlikoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlikoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +74,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EEC464572BA9EDFC00673D60 /* WhackGame */ = {
+			isa = PBXGroup;
+			children = (
+				EEC464552BA9EDF200673D60 /* GameSceneView.swift */,
+			);
+			path = WhackGame;
+			sourceTree = "<group>";
+		};
+		EEC4646C2BAA131500673D60 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				EEC4646D2BAA133800673D60 /* RulesView.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		EEC4646F2BAA15BE00673D60 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				EEC464702BAA15CA00673D60 /* MenuView.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		EEC464722BAA166A00673D60 /* PrivacyPolicy */ = {
+			isa = PBXGroup;
+			children = (
+				EEC464742BAA168700673D60 /* PrivacyPolicyView.swift */,
+			);
+			path = PrivacyPolicy;
+			sourceTree = "<group>";
+		};
+		EEC464732BAA167100673D60 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				EEC464762BAA177000673D60 /* ProgressGameView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
 		EEE88CF52BA1F36300F9BE1E = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +133,16 @@
 		EEE88D002BA1F36300F9BE1E /* Whack Pliko */ = {
 			isa = PBXGroup;
 			children = (
-				EEE88D012BA1F36300F9BE1E /* Whack_PlikoApp.swift */,
+				EEE88D1C2BA1F81400F9BE1E /* Views */,
+				EEE88D132BA1F4E600F9BE1E /* Sprites */,
+				EEE88D122BA1F4DF00F9BE1E /* Particles */,
+				EEE88D112BA1F4D500F9BE1E /* App */,
+				EEE88D102BA1F4D000F9BE1E /* Audio */,
+				EEE88D0F2BA1F4C800F9BE1E /* Scenes */,
 				EEE88D032BA1F36300F9BE1E /* ContentView.swift */,
 				EEE88D052BA1F36600F9BE1E /* Assets.xcassets */,
 				EEE88D072BA1F36600F9BE1E /* Preview Content */,
+				EEC464782BAA178A00673D60 /* GameData.swift */,
 			);
 			path = "Whack Pliko";
 			sourceTree = "<group>";
@@ -65,6 +153,101 @@
 				EEE88D082BA1F36600F9BE1E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEE88D0F2BA1F4C800F9BE1E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EEE88D162BA1F50000F9BE1E /* Model */,
+				EEE88D152BA1F4FB00F9BE1E /* ViewModel */,
+				EEE88D142BA1F4F300F9BE1E /* GameScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EEE88D102BA1F4D000F9BE1E /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EEC4646A2BAA072C00673D60 /* clickGood.wav */,
+				EEC464682BAA070800673D60 /* clickBad.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		EEE88D112BA1F4D500F9BE1E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EEE88D012BA1F36300F9BE1E /* Whack_PlikoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EEE88D122BA1F4DF00F9BE1E /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		EEE88D132BA1F4E600F9BE1E /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				EEC4645C2BA9F09D00673D60 /* SpriteName.swift */,
+				EEC464642BAA05F200673D60 /* Smoke.sks */,
+				EEC464652BAA05F200673D60 /* Assets.xcassets */,
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+		EEE88D142BA1F4F300F9BE1E /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				EEE88D1A2BA1F76B00F9BE1E /* PlikoScene.swift */,
+				EEC464582BA9EED300673D60 /* WhackGameScene.swift */,
+				EEC464602BA9F74E00673D60 /* WhackSlot.swift */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		EEE88D152BA1F4FB00F9BE1E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEE88D172BA1F52200F9BE1E /* GamePlikoViewModel.swift */,
+				EEE88D202BA2037100F9BE1E /* PlikoNames.swift */,
+				EEE88D222BA21F8900F9BE1E /* PlikoData.swift */,
+				EEC4645A2BA9EF2900673D60 /* WhackGameViewModel.swift */,
+				EEC464622BA9F7C400673D60 /* WhackSlotViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EEE88D162BA1F50000F9BE1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEC4645E2BA9F50300673D60 /* ProgressGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEE88D1C2BA1F81400F9BE1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EEC464732BAA167100673D60 /* Progress */,
+				EEC464722BAA166A00673D60 /* PrivacyPolicy */,
+				EEC4646F2BAA15BE00673D60 /* MenuView */,
+				EEC4646C2BAA131500673D60 /* Rules */,
+				EEC464572BA9EDFC00673D60 /* WhackGame */,
+				EEE88D1D2BA1F81900F9BE1E /* PlikoBonusGame */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EEE88D1D2BA1F81900F9BE1E /* PlikoBonusGame */ = {
+			isa = PBXGroup;
+			children = (
+				EEE88D1E2BA1F82600F9BE1E /* PlikoBonusGameView.swift */,
+			);
+			path = PlikoBonusGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +308,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC464692BAA070800673D60 /* clickBad.mp3 in Resources */,
 				EEE88D092BA1F36600F9BE1E /* Preview Assets.xcassets in Resources */,
 				EEE88D062BA1F36600F9BE1E /* Assets.xcassets in Resources */,
+				EEC464672BAA05F200673D60 /* Assets.xcassets in Resources */,
+				EEC464662BAA05F200673D60 /* Smoke.sks in Resources */,
+				EEC4646B2BAA072C00673D60 /* clickGood.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +324,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC464752BAA168700673D60 /* PrivacyPolicyView.swift in Sources */,
+				EEC464772BAA177000673D60 /* ProgressGameView.swift in Sources */,
 				EEE88D042BA1F36300F9BE1E /* ContentView.swift in Sources */,
+				EEC4645B2BA9EF2900673D60 /* WhackGameViewModel.swift in Sources */,
+				EEC464562BA9EDF200673D60 /* GameSceneView.swift in Sources */,
+				EEE88D182BA1F52200F9BE1E /* GamePlikoViewModel.swift in Sources */,
+				EEC4645F2BA9F50300673D60 /* ProgressGame.swift in Sources */,
+				EEC464592BA9EED300673D60 /* WhackGameScene.swift in Sources */,
+				EEE88D1F2BA1F82600F9BE1E /* PlikoBonusGameView.swift in Sources */,
+				EEC464632BA9F7C400673D60 /* WhackSlotViewModel.swift in Sources */,
+				EEE88D232BA21F8900F9BE1E /* PlikoData.swift in Sources */,
+				EEC464792BAA178A00673D60 /* GameData.swift in Sources */,
+				EEC464712BAA15CA00673D60 /* MenuView.swift in Sources */,
+				EEC4645D2BA9F09D00673D60 /* SpriteName.swift in Sources */,
 				EEE88D022BA1F36300F9BE1E /* Whack_PlikoApp.swift in Sources */,
+				EEC4646E2BAA133800673D60 /* RulesView.swift in Sources */,
+				EEE88D212BA2037100F9BE1E /* PlikoNames.swift in Sources */,
+				EEC464612BA9F74E00673D60 /* WhackSlot.swift in Sources */,
+				EEE88D1B2BA1F76B00F9BE1E /* PlikoScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +479,14 @@
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Whack Pliko";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +494,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.whackplikogame.Whack-Pliko";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,11 +514,14 @@
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Whack Pliko";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +529,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.whackplikogame.Whack-Pliko";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
